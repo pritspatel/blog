@@ -2,6 +2,8 @@
 title: "About"
 permalink: /about/
 author_profile: true
+header:
+    image: "/images/banner.jpg"
 ---
 
 I'm a Sr. Java developer working in the industry for more than 12 years. I am passionate about learning new technologies
