@@ -107,7 +107,7 @@ analytics:
 # Site Author
 author:
   name             : "Pritesh Patel"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/bio.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "A few tips and tricks about Java Technology Stacks"
   location         : "Atlanta,GA"
   email            :
