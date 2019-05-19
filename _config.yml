@@ -122,7 +122,7 @@ author:
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
     - label: "Linkedin"
-      icon: "fab fa-fw fa-linedin-square"
+      icon: "fab fa-fw fa-linedin"
       url: "https://www.linkedin.com/in/pritspatel/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
