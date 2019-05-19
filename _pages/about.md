@@ -1,7 +1,7 @@
 ---
 title: "About"
 permalink: /about/
-header:
+author_profile: true
 ---
 
 I'm a Sr. Java developer working in the industry for more than 12 years. I am passionate about learning new technologies
