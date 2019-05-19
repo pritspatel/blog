@@ -126,5 +126,14 @@ public class LeaderCandidate extends DefaultCandidate {
 
 ```
 
+As you can see from different code snippets, when application starts ```LockRegistryLeaderInitiator``` class will try to acquire
+lock. Since multiple instance of the same app is running, only one will be able to acquire lock against the table INT_LOCK. If it
+is successfull then spring integration will fire event which will be listened by ```LeaderCandidate``` class ```onGranted``` method.
+Here now you can start your jdbc poller or anyother custom biz logic you can implement. Other instances will not be granted leadership
+and will stay on standby mode. Now if you kill the instance which was selected as leader, you will notice that, other instance will be
+granted leadership and will take over the work.
+
 
 Complete source code of this project can be found on [leader-election-demo]('https://github.com/pritspatel/leader-election-demo').
+
+Please feel free to comment or suggest better idea. Goal of this post is to share ideas and learn from others.
