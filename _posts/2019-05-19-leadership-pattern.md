@@ -21,7 +21,7 @@ where we were using master-slave design pattern where master node of the spring 
 common resource (eg. db in our case) and delgate that work to multiple worker node for horizontal scalability. What I 
 expereinced is that when my master node went down, whole processing pipeline went down.
  
-After doing some reserach, I found out that we need to run multiple instance of Master node and allow only one node at a
+After doing some research, I found out that we need to run multiple instance of Master node and allow only one node at a
 time to poll and distribute work. In case active master node crash, then another passive master node will become active.
 To implement this pattern, I found out that spring integration has built in mechanism. Luckily we were using spring ecosystem
 in our project so that made our job easy.
