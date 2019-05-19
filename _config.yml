@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Pritesh Patel"
+title                    : "Java Tips & Tricks"
 title_separator          : "-"
 name                     : "Pritesh Patel"
-description              : "Java Tips and Tricks"
+description              : "Java Tips & Tricks"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -108,7 +108,7 @@ analytics:
 author:
   name             : "Pritesh Patel"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Passionate Java Developer and Life long learner"
+  bio              : "A few tips and tricks about Java Technology Stacks"
   location         : "Atlanta,GA"
   email            :
   links:
@@ -293,3 +293,4 @@ defaults:
       comments: # true
       share: true
       related: true
+  
