@@ -134,6 +134,6 @@ and will stay on standby mode. Now if you kill the instance which was selected a
 granted leadership and will take over the work.
 
 
-Complete source code of this project can be found on [leader-election-demo]('https://github.com/pritspatel/leader-election-demo').
+Complete source code of this project can be found on [leader-election-demo](https://github.com/pritspatel/leader-election-demo).
 
 Please feel free to comment or suggest better idea. Goal of this post is to share ideas and learn from others.
